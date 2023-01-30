@@ -1,0 +1,24 @@
+*{
+    font-size: 22px;
+}
+
+.list{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    width: 60%;
+    height: 5rem;
+    border: 2px solid black;
+    background: red;
+}
+
+.delBtn{
+    width: 3rem;
+    height: 2rem;
+    
+}
+.delBtn.unactive{
+   visibility: hidden;
+}
